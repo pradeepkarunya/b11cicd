@@ -15,5 +15,3 @@ jobs:
 
     - name: Show all files
       run: ls -all
-
-    - name: Doing SSH to EC2
