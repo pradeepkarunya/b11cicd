@@ -25,4 +25,3 @@ jobs:
             pwd
             ls -al
             mkdir pradeep
-            cd pradeep
