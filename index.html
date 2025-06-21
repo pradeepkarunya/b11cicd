@@ -1,1 +1,169 @@
-<h1>Setting up CI/CD</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pradeep Kumar - Resume</title>
+  <style>
+    :root {
+      --primary: #2c3e50;
+      --accent: #3498db;
+      --bg: #ecf0f1;
+      --white: #fff;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #2c3e50, #4ca1af);
+      color: var(--primary);
+      padding: 40px;
+    }
+
+    .resume {
+      background: var(--white);
+      max-width: 900px;
+      margin: auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header {
+      background: var(--accent);
+      color: var(--white);
+      padding: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      padding: 30px 40px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+      color: var(--accent);
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .skills span, .tools span {
+      display: inline-block;
+      background: var(--accent);
+      color: var(--white);
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      animation: popUp 0.5s ease forwards;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: var(--bg);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes popUp {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="resume">
+    <header>
+      <h1>Pradeep Kumar</h1>
+      <p>Senior React.js Developer | Delivery Module Lead at Mphasis (Client: HP)</p>
+    </header>
+
+    <section>
+      <h2>Summary</h2>
+      <p>
+        Passionate and experienced frontend engineer with 11+ years in full stack development. Expertise in React.js, performance tuning, corporate training, and leading agile teams. 
+        Adept at creating scalable applications and delivering robust client solutions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>React.js</span>
+        <span>Redux</span>
+        <span>TypeScript</span>
+        <span>Styled Components</span>
+        <span>Hooks</span>
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>JIRA</span>
+        <span>Git</span>
+        <span>Agile/Scrum</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Mphasis</strong> – Delivery Module Lead, Client: HP (React.js) – 2020 to Present</li>
+        <li><strong>Corporate Trainer</strong> – React, Redux, Hooks, Saga, Architecture</li>
+        <li><strong>11+ Years</strong> – Frontend & Full Stack Experience</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li>Excel-like React Plugin for Office Add-ins</li>
+        <li>Cloud-Ready EC2 App with Auto-Scaling</li>
+        <li>Responsive eCommerce site: Kumarans Corner</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools & Platforms</h2>
+      <div class="tools">
+        <span>VS Code</span>
+        <span>GitHub</span>
+        <span>Linux</span>
+        <span>Windows</span>
+        <span>AWS</span>
+        <span>EC2</span>
+        <span>Nginx</span>
+      </div>
+    </section>
+
+    <footer>
+      Chennai, India | 📧 pradeep@example.com | 📞 +91-XXXXXXXXXX
+    </footer>
+  </div>
+</body>
+</html>
+
