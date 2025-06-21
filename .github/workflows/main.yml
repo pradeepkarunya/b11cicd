@@ -24,7 +24,6 @@ jobs:
             whoami
             pwd
             ls -al
-            mkdir pradeep_kumar
 
       - name: Copy files via SSH
         uses: appleboy/scp-action@v1
