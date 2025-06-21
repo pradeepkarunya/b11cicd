@@ -19,9 +19,9 @@ jobs:
           host: ${{ secrets.EC2_HOST }}
           username: ${{ secrets.EC2_USERNAME }}
           key: ${{ secrets.EC2_SSH_KEY }}
-          port: 22
+          port: ${{ secrets.EC2_PORT }}
           script: |
             whoami
             pwd
             ls -al
-            mkdir pradeep
+            mkdir pradeep_kumar
