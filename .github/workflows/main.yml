@@ -12,6 +12,5 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
-
     - name: Show all files
       run: ls -all
