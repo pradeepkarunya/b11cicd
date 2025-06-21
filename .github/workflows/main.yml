@@ -33,7 +33,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           port: ${{ secrets.EC2_PORT }}
           source: "./"
-          target: "./var/www/html"
+          target: "/var/www/html"
 
 
       
